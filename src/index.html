@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../node_modules/gsap/dist/gsap.min.js" defer></script>
+    <script src="../node_modules/gsap/dist/Physics2DPlugin.min.js" defer></script>
+    <script src="./cookie.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jar">
+            <h1>cookie clicker with javscript</h1>
+            <img src="../Ellipse 5.svg" alt="cook" class="cookie" draggable="false" onselectstart="return false;" style="-webkit-user-drag: none; user-select: none;">
+            <p id="count"></p>
+        </div>
+        <div class="upgrades">
+            <h2>unlocks</h2>
+            <div class="upgradeOne">
+                <p id="upgradeTitle">cookie per click</p>
+                <button id="upgradeclick">upgrade</button>
+                <div>
+                    <div class="costs">
+                        <p>cost:</p>
+                        <p id="clickUpgradeCost">10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="upgradeTwo">
+                <p id="upgradeTitle">cookie per second</p>
+                <button id="upgradeAuto">upgrade</button>
+                <div>
+                    <div class="autocosts">
+                        <p>cost:</p>
+                        <p id="autoUpgradeCostLabel">200</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id="throwCookie">throw</button>
+        <img src="../Ellipse 5.svg" alt="test cookie" class="throw">
+    </div>
+    
+</body>
+</html>

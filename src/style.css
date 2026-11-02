@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px 100px;
+}
+
+.jar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upgrades {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#count {
+    font-size: 50px;
+    color: red;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+
+.upgradeOne {
+    display: flex;
+}
+
+.upgradeTwo {
+    display: none;
+
+}
+
+.upgradeTwo button {
+    height: fit-content;
+    align-self: center;
+    margin: 5px;
+}
+
+.upgradeOne button {
+    height: fit-content;
+    align-self: center;
+    margin: 5px;
+}
+
+.costs,
+.autocosts {
+    display: flex;
+}
+
+.throw {
+    width: 40px;
+}
